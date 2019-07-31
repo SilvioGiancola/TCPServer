@@ -30,7 +30,6 @@ build docker:
 `sudo docker build . -t qtcpserver`
 
 run docker:
-`sudo docker run --rm --runtime=nvidia -ti qtcpserver`
 `sudo docker run -p 1346:1346 --rm --runtime=nvidia -ti qtcpserver`
 
 
